@@ -7,7 +7,6 @@ local function xdg_path(input)
   local content = f:read("*all")
   f:close()
   local key = input:upper()
-  if not key:match("S$") then key = key .. "S" end
   local pattern = "XDG_" .. key .. "_DIR=\"(.-)\""
   local raw_path = content:match(pattern)
   if not raw_path then
