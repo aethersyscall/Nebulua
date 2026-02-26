@@ -58,8 +58,6 @@ Add this to your shell config so you can `require("Nebulua.xxx")` from anywhere.
 export LUA_PATH="$HOME/.local/share/lua/?.lua;;"
 ```
 
-(YES NONE OF THEM NEEDS LUAROCKS ACTUALLY)
-=======
 **Fish (`~/.config/fish/config.fish`):**
 ```fish
 set -gx LUA_PATH "$HOME/.local/share/lua/?.lua;;"
