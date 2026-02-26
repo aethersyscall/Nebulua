@@ -47,7 +47,6 @@ mkdir -p ~/.local/share/lua/
 git clone https://github.com/aethersyscall/Nebulua ~/.local/share/lua/Nebulua
 ```
 
-#### Clone a single atom
 <b> Global Path Configuration (Bash, Zsh, Fish)</b>
 <br />
 
