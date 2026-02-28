@@ -1,4 +1,4 @@
-local function contains(query, source)
+local function pattern(query, source)
   if not query or not source then return false end
 
   if string.find(source, query) then
@@ -8,4 +8,4 @@ local function contains(query, source)
   return false
 end
 
-return contains
+return pattern
